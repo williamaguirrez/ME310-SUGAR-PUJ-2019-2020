@@ -1,0 +1,9 @@
+{
+  "id": "530494bb-957f-4c75-92a7-cb3934d4fcd9",
+  "name": "periodo-financiacion",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

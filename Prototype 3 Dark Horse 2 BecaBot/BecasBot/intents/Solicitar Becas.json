@@ -1,0 +1,163 @@
+{
+  "id": "231ce33c-4e7b-4d14-9385-842944accdec",
+  "name": "Solicitar Becas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1f988353-2ef6-4abc-bf1a-c3a0d4739e10",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Claro, para buscarte una beca u opción de financiación. ¿Podrías proporcionarme tu nombre, por favor?"
+            },
+            {
+              "lang": "es",
+              "value": "Muy bien, ¿Cuál es tu nombre?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "fd9f741d-5c75-4c5b-a4bd-4e9d7cc1886e",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Gracias $name, un placer conocerte, ¿Cuál es tu correo electrónico?"
+            },
+            {
+              "lang": "es",
+              "value": "¿Me puedes decir tu correo electrónico $name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "796efbc8-6a0f-4425-84d0-bb20a1346c4a",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone",
+          "value": "$phone",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Regálame un número de celular, porfa"
+            },
+            {
+              "lang": "es",
+              "value": "¿Cuál es tu número de celular?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "4209cc86-7e72-4dce-8d32-aee095cc1deb",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "icfes",
+          "value": "$icfes",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Muy bien, ¿Ahora dime cuanto puntaje tienes en el icfes?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "8f9eb0f1-0808-428a-bfd9-52081be09e4d",
+          "required": true,
+          "dataType": "@periodo-financiacion",
+          "name": "financiacion",
+          "value": "$financiacion",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "En caso tal de que no tengamos becas disponibles para ti, ¿Cómo te gustaría financiar tu educación?\n¿Mensual? o ¿Semestral?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "e83b1d11-cfa0-4a0f-8c49-3a7e121f8b8d",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "dinero",
+          "value": "$dinero",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Cuánto dinero máximo tienes para pagar la matrícula de tu educación superior?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "02f2f382-4c63-4f4c-8361-b42198446793",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "ciudad",
+          "value": "$ciudad",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿En qué ciudad te gustaría estudiar?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

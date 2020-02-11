@@ -1,0 +1,388 @@
+[
+  {
+    "id": "310366cc-4935-4628-81f4-3de5e7b5bd9a",
+    "data": [
+      {
+        "text": "Buscar de ",
+        "userDefined": false
+      },
+      {
+        "text": "nuevo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "1352f26a-38c6-4b39-a3e0-50957cd42390",
+    "data": [
+      {
+        "text": "3022118294",
+        "alias": "phone",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5465c5bf-db91-4bc0-847d-f35ffde1e7a4",
+    "data": [
+      {
+        "text": "en Cali",
+        "alias": "ciudad",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fa6e2f47-176d-4c54-80b3-4621578e79c6",
+    "data": [
+      {
+        "text": "en la ciudad de Cali",
+        "alias": "ciudad",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3a94a58e-3a37-4e94-b9a6-17c279c820ba",
+    "data": [
+      {
+        "text": "$3000000",
+        "alias": "dinero",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "05ee1b12-30a6-4aef-87b3-e479f4d2b876",
+    "data": [
+      {
+        "text": "$ 3000000",
+        "alias": "dinero",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "17638455-f072-4c7a-8aa4-1475d366e866",
+    "data": [
+      {
+        "text": "3000000 de pesos",
+        "alias": "dinero",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bc0a5940-6e34-4f26-ab32-6b5749f91d18",
+    "data": [
+      {
+        "text": "cada ",
+        "userDefined": false
+      },
+      {
+        "text": "semestre",
+        "alias": "financiacion",
+        "meta": "@periodo-financiacion",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "060d77dd-e165-44ec-b06c-0bf34fa2774c",
+    "data": [
+      {
+        "text": "cada ",
+        "userDefined": false
+      },
+      {
+        "text": "mes",
+        "alias": "financiacion",
+        "meta": "@periodo-financiacion",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ee039f98-726c-4446-b896-ce4a72b4485f",
+    "data": [
+      {
+        "text": "semestral",
+        "alias": "financiacion",
+        "meta": "@periodo-financiacion",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "456f0db5-7bb1-4a75-ada6-c28b1f080373",
+    "data": [
+      {
+        "text": "mensual",
+        "alias": "financiacion",
+        "meta": "@periodo-financiacion",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "63d8836f-b845-498c-8f8a-f39154c10ebe",
+    "data": [
+      {
+        "text": "350",
+        "alias": "icfes",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bec10bfa-9e37-4e78-8a5d-7cca53fb0e47",
+    "data": [
+      {
+        "text": "Adelante",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "976d68d6-588c-4903-a721-8760c134a076",
+    "data": [
+      {
+        "text": "Claro que si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0f6d2114-6d0d-428a-b1ea-03dd3e43929a",
+    "data": [
+      {
+        "text": "Si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c65d59cc-153f-482c-9d94-4a34dea822e3",
+    "data": [
+      {
+        "text": "mi icfes",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " fue de ",
+        "userDefined": false
+      },
+      {
+        "text": "350",
+        "alias": "icfes",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ba64b2bf-9940-4fbe-b350-2936220893cb",
+    "data": [
+      {
+        "text": "Mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " puntaje de ",
+        "userDefined": false
+      },
+      {
+        "text": "icfes",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "es 350",
+        "alias": "icfes",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2dd38cde-6b67-48a8-917a-d264807d0590",
+    "data": [
+      {
+        "text": "william@william.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "74400df5-643c-4c5c-9841-d009e9f75c49",
+    "data": [
+      {
+        "text": "al correo ",
+        "userDefined": false
+      },
+      {
+        "text": "william@william.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "820ee99d-5201-4ef9-8d4e-ff12f6aa224f",
+    "data": [
+      {
+        "text": "mi correo es ",
+        "userDefined": false
+      },
+      {
+        "text": "william@william.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ccd1d5ca-e1fe-4bef-bb41-7528c4ef8098",
+    "data": [
+      {
+        "text": "Me llamo ",
+        "userDefined": false
+      },
+      {
+        "text": "William",
+        "alias": "name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1b8628fd-2c46-4f4b-acae-2600b81cad4b",
+    "data": [
+      {
+        "text": "Mi nombre es ",
+        "userDefined": false
+      },
+      {
+        "text": "William",
+        "alias": "name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e30fb8c4-7d7b-4af3-86ab-cf5b975cc042",
+    "data": [
+      {
+        "text": "Hola, quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "buscar",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " beca",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

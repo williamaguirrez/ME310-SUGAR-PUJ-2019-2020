@@ -1,0 +1,14 @@
+[
+  {
+    "value": "mensual",
+    "synonyms": [
+      "mes"
+    ]
+  },
+  {
+    "value": "semestral",
+    "synonyms": [
+      "semestre"
+    ]
+  }
+]
