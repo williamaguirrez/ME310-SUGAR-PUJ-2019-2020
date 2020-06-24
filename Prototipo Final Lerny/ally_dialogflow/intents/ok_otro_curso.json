@@ -1,0 +1,39 @@
+{
+  "id": "7c3d30ba-c238-465a-ac98-aac0b8606a76",
+  "name": "ok_otro_curso",
+  "auto": true,
+  "contexts": [
+    "fin_comenzar_login"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fin_ok_otro_curso",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Estos son tus cursos actuales.\n\n*1.* Lanzate a la Innovación con el Design Thinking\n*2.* Sexualidad sin Tabú\n*3.* Escribir para convencer en la modernidad\n\nSelecciona una opción"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

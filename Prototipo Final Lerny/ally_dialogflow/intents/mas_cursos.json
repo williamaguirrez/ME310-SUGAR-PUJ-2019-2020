@@ -1,0 +1,33 @@
+{
+  "id": "c96284de-00ee-4cf0-9e7b-9e14b9161f65",
+  "name": "mas_cursos",
+  "auto": true,
+  "contexts": [
+    "fin_ok_otro_curso"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Este es otro curso.\n\nGracias por Probar el prototipo Lerny by Javeriana.\n\nEres lo máximo y lo mejor del mundo.\n\nLos mejores para el mundo.\n\nPara volver a iniciar di *hola*."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

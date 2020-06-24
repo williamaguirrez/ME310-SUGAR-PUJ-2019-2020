@@ -1,0 +1,58 @@
+[
+  {
+    "id": "80900102-23a9-47bf-868a-66fc223ee816",
+    "data": [
+      {
+        "text": "final",
+        "alias": "final",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c83bc7c1-38a6-484e-8f21-a7d90c59d2cd",
+    "data": [
+      {
+        "text": "tiempo",
+        "alias": "tiempo",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e0d7e3a6-9dbe-4afd-9070-e79093a95e64",
+    "data": [
+      {
+        "text": "gusto",
+        "alias": "gusto",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "acafc475-0d8f-4b12-8fda-e635396fa5e8",
+    "data": [
+      {
+        "text": "William",
+        "alias": "nombre",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "77c3e684-c9fb-4f3c-bf48-fdcd9f622815",
+    "data": [
+      {
+        "text": "duda",
+        "alias": "duda",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b716059a-fa0b-42cd-aff8-b1b8399ae956",
+    "data": [
+      {
+        "text": "William",
+        "alias": "usuario",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "id": "423e18eb-bd59-4338-a62a-00d711bac586",
+  "name": "design_curso1",
+  "auto": true,
+  "contexts": [
+    "fin_comenzar_login"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fin_design_curso1",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Continuando con el curso \"Lánzate a la innovación con el Design Thinking\".\nLas etapas del Design Thinking son:\n1.   Empatizar:   Durante esta etapa se deben investigar las necesidades del usuario\n\n2.   Definir:   En la segunda etapa, se debe filtrar la información para crear conclusiones que guiarán el trabajo\n\n3. Idea:   Una vez definido el problema se deben idear soluciones. Se recomienda hacer una lluvia de ideas con un equipo multidisciplinario\n\n4. Prototipo: Las ideas seleccionadas se transforman en prototipos que ayuden a visualizar las soluciones.\n\n5. Prueba:  La última etapa consiste en realizar pruebas con usuarios finales usando los prototipos.\n\n\nBuen trabajo, eso fue todo por la lección de hoy. \n\nPara volver a iniciar di *hola*."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

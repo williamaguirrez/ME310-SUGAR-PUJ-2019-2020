@@ -1,0 +1,76 @@
+{
+  "id": "c318b1eb-2e81-4896-ba04-49b21484f151",
+  "name": "llamada",
+  "auto": true,
+  "contexts": [
+    "fin_ok_llamada"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fin_llamada",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3697f7a5-ad64-4f1c-aa6f-49bf22a9a5c8",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "usuario",
+          "value": "$usuario",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Cuál es tu nombre de usuario?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "3abe5fb0-0b5c-483a-a689-57387b333a68",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "hora",
+          "value": "$hora",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Listo $usuario, ahora dime que día y a qué hora podemos llamarte ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Muchas gracias $usuario, tu llamada quedo programada para $hora, recuerda estar pendiente 10 minutos antes de iniciar.\n\nEn caso que no quieras que te llamemos di, *cancelar*.\n\nGracias por probar la versión de prueba de Lerny para volver a iniciar di, *hola*."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

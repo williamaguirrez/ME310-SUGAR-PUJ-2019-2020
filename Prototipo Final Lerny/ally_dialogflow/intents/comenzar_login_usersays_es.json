@@ -1,0 +1,30 @@
+[
+  {
+    "id": "57d34867-2c69-4334-8212-c2e7cd9bd711",
+    "data": [
+      {
+        "text": "contrasena",
+        "alias": "contrasena",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "97c4897a-1489-4a88-ad1b-5f7351654d66",
+    "data": [
+      {
+        "text": "usuario",
+        "alias": "usuario",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

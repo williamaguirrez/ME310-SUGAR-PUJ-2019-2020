@@ -1,0 +1,58 @@
+[
+  {
+    "id": "b6febdfc-96ac-4d59-8d67-1de7bc6f4fb0",
+    "data": [
+      {
+        "text": "celular",
+        "alias": "celular",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eb6e9618-7433-4542-9d56-5852f495b5fa",
+    "data": [
+      {
+        "text": "nombre",
+        "alias": "nombre",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "527ad755-4f16-4e9f-bda5-a945903e58ba",
+    "data": [
+      {
+        "text": "contraseña",
+        "alias": "contrasena",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "17428e47-91a1-475d-bc8d-2bf2086992a3",
+    "data": [
+      {
+        "text": "usuario",
+        "alias": "usuario",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
