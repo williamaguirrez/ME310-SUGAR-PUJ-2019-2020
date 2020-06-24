@@ -1,0 +1,32 @@
+{
+  "id": "e1b82e8a-901e-4d17-9883-6c3560d8b77c",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Lo siento no te he entendido. ☹️\n \n¡Hola!, bienvenido a Lerny by Javeriana.\n\nSi quieres continuar con tus cursos, di *comenzar*.\n\nSi quieres hablar con un monitor, di *monitor*.\n\nSi aún no te has registrado en Lerny, di *registro*."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

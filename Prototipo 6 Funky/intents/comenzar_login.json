@@ -1,0 +1,76 @@
+{
+  "id": "6a34bd73-470a-48da-8381-82c592ac2edd",
+  "name": "comenzar_login",
+  "auto": true,
+  "contexts": [
+    "fin_ok_comenzar"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fin_comenzar_login",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cef4b51e-d4f8-43a0-b1ce-46da46e0e486",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "usuario",
+          "value": "$usuario",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor ingresa tu nombre de usuario"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "cfe90c52-1f8a-4366-8ddb-de33f022fee1",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "contrasena",
+          "value": "$contrasena",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ingresa tu contraseña"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Bienvenido de nuevo $usuario, te extrañé.\n\nSi deseas Continuar con tu Curso de *Lánzate a la innovación con el Design Thinking * por favor di *continuar*.\n\nSi quieres otro curso por favor di *otro*."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

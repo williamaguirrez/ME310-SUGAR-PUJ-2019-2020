@@ -1,0 +1,112 @@
+{
+  "id": "608d2e68-0406-4cdc-9114-8e6650577fd0",
+  "name": "registro",
+  "auto": true,
+  "contexts": [
+    "fin_ok_registro"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fin_registro",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3a7fcf12-ef4e-4af7-919b-b2de24a45718",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "usuario",
+          "value": "$usuario",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Vale, para empezar, Dime un *nombre de usuario*."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "4e0fdd06-1d6c-426b-aece-a038d1b2779e",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "nombre",
+          "value": "$nombre",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Cuál es tu nombre?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "8cc13a03-9c36-4d24-a2cc-7e9abd0a3d16",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "celular",
+          "value": "$celular",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Cúal es tu número de celular?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "59e53b9c-d8d0-4650-a3c5-a22aa7deb6bb",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "contrasena",
+          "value": "$contrasena",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Para finalizar, dime *cuatro digítos* para guardarlo como contraseña"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Muchas gracias $nombre, por registrarte en Lerny  🎊\n\nPara empezar tu aprendizaje, sólo debes consignar $10.000 en cualquier punto *Gane*, *Efecty*, *Nequi*, *DaviPlata*, o *Bancolombia*, referenciando tu número de celular.\n\nEsta es una prueba del registro de Lerny, para volver a empezar di *Hola*"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,128 @@
+{
+  "id": "f2a102a9-3eba-4877-a857-ec3cfef720c8",
+  "name": "ingles_curso_1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fin_ingle_curso_1",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f416f6a1-0f97-459a-a3c4-6c40bc576049",
+          "required": true,
+          "dataType": "@ingles_1",
+          "name": "ingles_1",
+          "value": "$ingles_1",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Continuando con el curso de *Inglés*.\n\n¿Cómo se dice \"Caballo\"?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "9579e766-a46c-4174-b26d-ebcb7e01b45e",
+          "required": true,
+          "dataType": "@ingles_2",
+          "name": "ingles_2",
+          "value": "$ingles_2",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Correcto. Ahora ¿Cómo se dice. The house is red. en español?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "1121e1af-6ecb-47d1-92a1-b006483f80f6",
+          "required": true,
+          "dataType": "@ingles_3",
+          "name": "ingles_3",
+          "value": "$ingles_3",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Buen trabajo.\n\n¿Cómo se dice?. *Mi lápiz es azul*. ¿En inglés?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "9c61c4a4-1c2a-4e63-9b7f-6fe525b14ebe",
+          "required": true,
+          "dataType": "@ingles_4",
+          "name": "ingles_4",
+          "value": "$ingles_4",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Excellent.\nExcelente.\n\n¿Cómo se dice *Libro*. en inglés?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "82624735-06fb-4721-b5f1-e74a84707ef8",
+          "required": true,
+          "dataType": "@ingles_5",
+          "name": "ingles_5",
+          "value": "$ingles_5",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por último. ¿Como se dice. *The notebook is yellow*, en español?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Buen trabajo haz aprobado estas cinco preguntas.\n\nGracias por Probar el prototipo Apprende by Javeriana.\n\nEres lo máximo y lo mejor del mundo.\n\nLos mejores para el mundo.\n\nPara volver a iniciar di *hola*."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

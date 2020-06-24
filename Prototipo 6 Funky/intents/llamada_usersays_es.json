@@ -1,0 +1,30 @@
+[
+  {
+    "id": "d6c3276f-0223-4011-9e3a-151d9c7c3384",
+    "data": [
+      {
+        "text": "hora",
+        "alias": "hora",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3383cb32-c1e8-4dad-96cd-273a540b0bf5",
+    "data": [
+      {
+        "text": "William",
+        "alias": "usuario",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

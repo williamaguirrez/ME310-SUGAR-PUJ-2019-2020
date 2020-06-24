@@ -1,0 +1,72 @@
+[
+  {
+    "id": "89f90464-ef41-4878-adf9-115c3f9f5e2b",
+    "data": [
+      {
+        "text": "el cuaderno es amarillo",
+        "alias": "ingles_5",
+        "meta": "@ingles_5",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7faf7f91-ef23-406a-be73-dfa7a4b4c7fb",
+    "data": [
+      {
+        "text": "book",
+        "alias": "ingles_4",
+        "meta": "@ingles_4",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "031bbfb4-42a5-4eed-9e7c-fae4353ccaad",
+    "data": [
+      {
+        "text": "my pencil is blue",
+        "alias": "ingles_3",
+        "meta": "@ingles_3",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1e5bb638-f1b7-4334-8d07-1a93b519155f",
+    "data": [
+      {
+        "text": "la casa es roja",
+        "alias": "ingles_2",
+        "meta": "@ingles_2",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d76f2b45-959e-497c-b99b-d41df98b5e18",
+    "data": [
+      {
+        "text": "horse",
+        "alias": "ingles_1",
+        "meta": "@ingles_1",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

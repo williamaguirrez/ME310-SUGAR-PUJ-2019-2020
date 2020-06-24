@@ -1,0 +1,76 @@
+{
+  "id": "fb18cd51-df8d-4aa6-9710-8bbf5e958c97",
+  "name": "monitor",
+  "auto": true,
+  "contexts": [
+    "fin_ok_monitor"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fin_monitor",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c92addac-d922-44ab-a4aa-3df15b817ef9",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "usuario",
+          "value": "$usuario",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Cuál es tu nombre de usuario?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "4c3e0722-693c-48e4-82df-436e2749ca58",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "duda",
+          "value": "$duda",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Hola $usuario, para asignarte un monitor, primero dime, ¿De qué tema se trata?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Muchas gracias $usuario, te encontramos un monitor disponible para $duda, el cuál te contactará entre 3 a 15 minutos. \n\nEn caso que no quieras que te llamemos di, *cancelar*.\n\nGracias por probar la versión de prueba de Lerny para volver a iniciar di, *hola*."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "2dd27707-56d1-4e0d-b88b-3b263376b9ad",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "¡Hola!, bienvenido a Lerny by Javeriana.\nSoy Ally y en esto te puedo ayudar.\n\nSi quieres continuar con tus cursos, di *comenzar*. \n\nSi quieres hablar con un monitor, di *monitor*.\n\nSi quieres programar una llamada, di *llamada*\n\nSi aún no te has registrado en Lerny, di *registro*."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

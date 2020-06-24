@@ -1,0 +1,112 @@
+{
+  "id": "7b693326-3160-4fdc-8f32-29f24f9b1255",
+  "name": "ruta_aprendizaje",
+  "auto": true,
+  "contexts": [
+    "fin_ok_ruta"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fin_ruta_aprendizaje",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "87f08277-cf19-46cf-9101-7fb688f7f86c",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "nombre",
+          "value": "$nombre",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Porfa, ingresa tu nombre"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "6c51d767-d320-448d-8074-44d20ea43148",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "gusto",
+          "value": "$gusto",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Gracias $nombre ¿Qué te gustaría aprender con nosotros?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "312a37b9-dbdd-4b58-8f7f-db7dd66a6bce",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "tiempo",
+          "value": "$tiempo",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¡Genial!, y ¿Cuánto tiempo le dedicarías semanalmente?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "0d78fae0-98c3-443a-b9e7-f39ae5ab2203",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "final",
+          "value": "$final",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¡Perfecto!, estas son algunas de las  posibilidades que tenemos para ti...\n\n- Cocina Colombiana con *Apprende*\n- Diseño Vectorial con *Crehana*\n- El universo de las carnes en *Udemy*\n- Fundamentos del Color Gráfico en *edX* \n\nEste es el *primer* Micro-learning, puedes aprobarlos en 2 meses y  certificar tus nuevas habilidades\n\n- Ilustrator para novatos con *edX*\n- Alimentos Saludables en *Udemy*\n- Teoría de la fruta en *Apprende*\n- Fundamentos del Color Gráfico en *edX*\n\nEste es el *segundo* Micro-learning, puedes aprobarlos en 2 meses y  certificar tus nuevas habilidades\n\n- Ilustración para no ilustradores *Crehana*\n- Alimentación saludabe *Apprende*\n- Photoshop a tu ritmo *edX*\n- Cocina Francesa Gato *Dumas*\n\nConoce más tus rutas en:\nhttps://wtechnology.co/rutas"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
